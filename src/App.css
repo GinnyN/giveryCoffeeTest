@@ -1,0 +1,34 @@
+.App {
+  display: grid;
+  grid-template-columns: 30rem 30rem;
+}
+
+.menu-item {
+  display: grid;
+  grid-template-columns: 40% 25px;
+  gap: 10px
+}
+
+.menu-item div, .order #count, .order #total-price {
+  color: white;
+  background-color: violet;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+}
+.order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.order #count {
+  width: 25px;
+  display: inline-block;
+}
+
+button {
+  background-color: white;
+  border: violet 2px solid;
+  border-radius: 20px;
+}
